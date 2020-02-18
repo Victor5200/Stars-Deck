@@ -4,14 +4,6 @@ target/
 !**/src/main/**
 !**/src/test/**
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -19,13 +11,18 @@ target/
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
 
-### VS Code ###
-.vscode/
+
+
+# Node
+.npm/**
+node_modules/**
+jspm_packages/**
+bower_components/**
+typings/**
+.yarn-integrity
+.cache
+.next
+.nuxt
+.vuepress/dist/**
+.serverless
